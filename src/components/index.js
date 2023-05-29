@@ -11,3 +11,6 @@ export { default as Projects } from "./Projects";
 // SUB COMPONENTS
 export { default as Title } from "./Title"
 export { default as Scroll } from "./Scroll"
+
+// Layout Component
+export { default as Layout } from "./Layout"

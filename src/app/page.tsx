@@ -10,7 +10,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="relative bg-primary">
+    <div className="w-full relative bg-primary">
       <Navbar />
       <div >
         <Intro />

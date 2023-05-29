@@ -4,7 +4,7 @@ import { Link, animateScroll as scroll } from 'react-scroll'
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {    
+  useEffect(() => {
     const onScroll = () => {
       if (window.scrollY > 0 || window.pageYOffset !== 0) {
         setScrolled(true);
@@ -27,9 +27,9 @@ function Navbar() {
   };
 
   return (
-    <nav className={`w-full h-fit flex justify-between items-center p-4 xs:p-6 text-sm md:text-md lg:text-lg fixed inset-0 z-10 ${scrolled ? 'bg-[#151030] transition-all ease-in-out duration-700	 ' : 'bg-transparent transition-all ease-in-out duration-700'}`}>
-      <Link to="/" href="/" onClick={scrollToTop}>Obaxii</Link>
-      <div className="flex justify-between gap-4">
+    <nav className={`w-full h-fit flex justify-between items-center p-2 xs:p-6 text-md md:text-lg lg:text-xl`}>
+      <Link to="/" href="/" className='w-1/5' onClick={scrollToTop}>Obaxii</Link>
+      <ul className="flex justify-end w-3/4 gap-4">
         <Link activeClass="active" to="summary" spy={true} smooth={true}
           duration={100} className="cursor-pointer" >
           About
@@ -42,7 +42,7 @@ function Navbar() {
           duration={100} className="cursor-pointer">
           Contact
         </Link>
-      </div>
+      </ul>
     </nav>
   )
 }
