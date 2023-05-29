@@ -18,9 +18,13 @@
   }
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  overflow-x: hidden;
+
 }
 
 ::-webkit-scrollbar {
@@ -29,11 +33,13 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6e40c9;;
+  background: #6e40c9;
+  ;
   border-radius: 15px;
 }
 
 ::-webkit-scrollbar-track {
   background: #050816;
 }
+
 /* bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 */
