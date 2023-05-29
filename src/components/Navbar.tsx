@@ -27,9 +27,9 @@ function Navbar() {
   };
 
   return (
-    <nav className={`w-full h-fit flex justify-between items-center p-2 xs:p-6 text-md md:text-lg lg:text-xl`}>
+    <nav className={`fixed w-screen h-fit flex justify-between items-center p-2 xs:p-6 text-md md:text-lg lg:text-xl`}>
       <Link to="/" href="/" className='w-1/5' onClick={scrollToTop}>Obaxii</Link>
-      <ul className="flex justify-end w-3/4 gap-4">
+      <ul className="flex justify-end w-1/4 gap-4">
         <Link activeClass="active" to="summary" spy={true} smooth={true}
           duration={100} className="cursor-pointer" >
           About
