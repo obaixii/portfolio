@@ -1,6 +1,10 @@
 import { Scroll } from "./index";
-
-function Layout({ children, id, comp }) {
+interface LayoutProps {
+    children: React.ReactNode;
+    id: string;
+    comp: string;
+}
+function Layout({ children, id, comp }: LayoutProps) {
 
     return (
         <div id={id} className="h-screen flex flex-col justify-center items-center text-center">
