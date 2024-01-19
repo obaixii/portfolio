@@ -16,7 +16,7 @@ const Summary = () => {
                         for self-directed learning and am able to apply myself to acquiring
                         new skills within a constrained time frame.
                     </p>
-                    <Link target="_blank" href="/assets/resume/myResume.pdf" className="w-fit mx-auto sm:mx-0 bg-[#6e40c9] p-2 rounded-lg text-sm mt-auto transition-all ease-in delay-100 duration-300 hover:shadow-lg hover:shadow-[#a67aff]/50" download>
+                    <Link target="_blank" href="/assets/resume/myCv.pdf" className="w-fit mx-auto sm:mx-0 bg-[#6e40c9] p-2 rounded-lg text-sm mt-auto transition-all ease-in delay-100 duration-300 hover:shadow-lg hover:shadow-[#a67aff]/50" download>
                         Download Cv`📜
                     </Link>
                 </div>
