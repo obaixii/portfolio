@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import { Navbar, Intro, Summary, Skills, Qualifications, Projects, Footer } from "@/components/index.js";
 import ScrollTop from "@/components/ScrollTop";
 import initializeAOS from '@/utils/initializeAOS';
+
 export default function Home() {
 
   useEffect(() => {
@@ -12,14 +13,15 @@ export default function Home() {
   return (
     <div className="w-full relative bg-primary">
       <Navbar />
-      <div >
+      < >
+      
         <Intro />
         <Summary />
         <Skills />
-        {/* <Qualifications /> */}
+        <Qualifications />
         <Projects />
         <Footer />
-      </div>
+      </>
         <ScrollTop/>
     </div>
 
