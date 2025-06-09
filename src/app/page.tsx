@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 
 import { Heading, Flex, Text, Button, Avatar, RevealFx, Column, Badge, Row } from "@/once-ui/components";
@@ -17,9 +18,17 @@ export async function generateMetadata() {
     path: home.path,
   });
 }
+=======
+"use client"
+import { useEffect } from "react";
+import { Navbar, Intro, Summary, Skills, Qualifications, Projects, Footer } from "@/components/index.js";
+import ScrollTop from "@/components/ScrollTop";
+import initializeAOS from '@/utils/initializeAOS';
+>>>>>>> 8b42962ead05a2f155cb1e4e20bb70ebf0e2cab5
 
 export default function Home() {
   return (
+<<<<<<< HEAD
     <Column maxWidth="m" gap="xl" horizontal="center">
       <Schema
         as="webPage"
@@ -94,5 +103,21 @@ export default function Home() {
       <Projects range={[2]} /> */}
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>
+=======
+    <div className="w-full relative bg-primary">
+      <Navbar />
+      < >
+      
+        <Intro />
+        <Summary />
+        <Skills />
+        <Qualifications />
+        <Projects />
+        <Footer />
+      </>
+        <ScrollTop/>
+    </div>
+
+>>>>>>> 8b42962ead05a2f155cb1e4e20bb70ebf0e2cab5
   );
 }
