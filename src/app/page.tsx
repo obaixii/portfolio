@@ -20,6 +20,12 @@ export async function generateMetadata() {
 
 export default function Home() {
   return (
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 63679c00a76950436b332bcca27c8bbcecc93cf0
     <Column maxWidth="m" gap="xl" horizontal="center">
       <Schema
         as="webPage"
@@ -95,6 +101,9 @@ export default function Home() {
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>
 
+<<<<<<< HEAD
     
   );
 }
+=======
+>>>>>>> 63679c00a76950436b332bcca27c8bbcecc93cf0
