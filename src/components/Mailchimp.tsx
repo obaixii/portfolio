@@ -132,7 +132,7 @@ export const Mailchimp = ({ newsletter }: { newsletter: NewsletterProps }) => {
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
       >
-        <Flex id="mc_embed_signup_scroll" fillWidth maxWidth={24} mobileDirection="column" gap="8" style={{ justifyContent: "center" }}>
+        <Flex id="mc_embed_signup_scroll" fillWidth maxWidth={24} mobileDirection="row" gap="8" style={{ justifyContent: "center" }}>
           <div className="clear">
             <Flex height="48" vertical="center">
               <Link target="_blank" href="/pdfs/ObaidCv.pdf" download>
