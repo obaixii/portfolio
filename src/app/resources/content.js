@@ -69,7 +69,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Always Learning🔍 Always Growing🚀</>,
+  headline: <>Always Learning🔍<br/>Always Growing🚀</>,
   featured: {
     display: true,
     title: <>Personal Site <strong className="ml-4">@obaixii</strong></>,
