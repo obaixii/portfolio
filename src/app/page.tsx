@@ -50,7 +50,9 @@ export default function Home() {
           </RevealFx>
           <RevealFx translateY="8" delay={0.2} fillWidth horizontal="start" paddingBottom="32">
             <Text wrap="balance" onBackground="neutral-weak" variant="heading-default-xl">
-              &lsquo;&lsquo; {home.subline} &rsquo;&rsquo;
+              <span style={{ fontWeight: "bold", color:"black" }}>&lsquo;&lsquo;</span>
+              {home.subline}
+              <span style={{ fontWeight: "bold", color:"black" }}>&rsquo;&rsquo;</span>
             </Text>
           </RevealFx>
           <RevealFx paddingTop="12" delay={0.4} horizontal="start" paddingLeft="12">
@@ -95,6 +97,6 @@ export default function Home() {
       {newsletter.display && <Mailchimp newsletter={newsletter} />}
     </Column>
 
-    
+
   );
 }
